@@ -1,30 +1,19 @@
-# Astro Starter Kit: Basics
+# Objective
+We want to build on and improve the CoalFace NZ website. 
 
-```sh
-npm create astro@latest -- --template basics
-```
+Currently it is a static website built on Wix. However some components are dated or broken.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Original Design
+Notice that the header is badly centered and contains elements that appear dated and unprofessional. Multiple pages (some non-functioning) can be accessed through the nav-bar
+<br>
+<img width="929" height="215" alt="image" src="https://github.com/user-attachments/assets/848f595c-51c3-4dc4-a8a5-985794a2848b" />
+<br>
+The Logo and Branding will undergo redsign also. However, this will be treated as exogenous to this repository. It will inform our desicions and colour palletes, but this repository will likely not concern itself with the specifics of the logo.
+<br><br>
+The contact us option is interesting. I believe it uses PHP. This will likely require more investigation.
+<img width="641" height="727" alt="image" src="https://github.com/user-attachments/assets/e508099a-b00a-4c7c-adf5-2e6285338cc6" />
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+https://www.coalface.co.nz/
 
 To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
@@ -40,8 +29,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
